@@ -35,3 +35,17 @@ Before testing Nginx, the firewall software needs to be adjusted to allow access
 ~~~
 sudo ufw allow 'Nginx HTTP'
 ~~~
+## Step 3 – Checking your Web Server
+We can check with the  `systemd`  init system to make sure the service is running by typing:
+```
+systemctl status nginx
+```
+## Step 4 – Managing the Nginx Process
+To enable the service to start up at boot, you can type:
+```
+sudo systemctl enable nginx
+```
+To start the service, you can type:
+```
+sudo systemctl start nginx
+```
