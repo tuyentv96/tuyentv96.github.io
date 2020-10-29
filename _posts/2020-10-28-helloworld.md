@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample blog post
+title: Installing Nginx On Ubuntu
 tags: [nginx,proxy]
 comments: true
 ---
