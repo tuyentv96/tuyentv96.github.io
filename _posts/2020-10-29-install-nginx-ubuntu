@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install Nginx On Ubuntu
+subtitle: Each post also has a subtitle
 tags: [nginx,proxy]
 comments: true
 ---
