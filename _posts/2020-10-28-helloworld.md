@@ -22,3 +22,16 @@ Here's a useless table:
 | Ten | Eleven | Nine |
 | Seven | Eight | Six |
 | Two | Three | One |
+## Step 1 - Installing nginx
+Because Nginx is available in Ubuntu’s default repositories, it is possible to install it from these repositories using the `apt` packaging system.
+~~~
+sudo apt update
+sudo apt install nginx
+~~~
+
+After accepting the procedure,  `apt`  will install Nginx and any required dependencies to your server.
+## Step 2 – Adjusting the Firewall
+Before testing Nginx, the firewall software needs to be adjusted to allow access to the service. Nginx registers itself as a service with  `ufw`  upon installation, making it straightforward to allow Nginx access.
+~~~
+sudo ufw allow 'Nginx HTTP'
+~~~
