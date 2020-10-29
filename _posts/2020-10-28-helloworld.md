@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample blog post
-tags: [ngix]
+tags: [nginx,proxy]
 comments: true
 ---
 
